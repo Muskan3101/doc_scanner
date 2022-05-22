@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'pages/home_page.dart';
+import 'screens/splash_screen.dart';
 void main(){
   runApp(const MyApp());
 }
@@ -20,7 +19,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primaryColor: Colors.indigo[900],
       ),
-      home: const HomePage(),
+      home: const SplashScreen(),
     );
   }
 }
